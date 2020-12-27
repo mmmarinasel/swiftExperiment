@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41413F5F258B7D8200E8CB21 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41413F5E258B7D8200E8CB21 /* RealmManager.swift */; };
+		4146DEDA2536DBA60019F3CE /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4146DED92536DBA60019F3CE /* MainScreen.storyboard */; };
+		4146DEDF2536E0670019F3CE /* IncomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4146DEDE2536E0670019F3CE /* IncomeScreen.storyboard */; };
+		4146DEE72536E1E30019F3CE /* ExpensesScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4146DEE62536E1E30019F3CE /* ExpensesScreen.storyboard */; };
+		4146DEEC2536E5470019F3CE /* DiagramScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4146DEEB2536E5470019F3CE /* DiagramScreen.storyboard */; };
+		4146DEF42536EED60019F3CE /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146DEF32536EED60019F3CE /* MainScreenViewController.swift */; };
+		415566442566608A00A1630E /* CategsIncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415566432566608900A1630E /* CategsIncomeViewController.swift */; };
+		4155664C2566998D00A1630E /* CategsIncomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4155664B2566998D00A1630E /* CategsIncomeTableViewCell.swift */; };
+		418A702F256DA2D90013E190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418A702E256DA2D80013E190 /* Main.storyboard */; };
+		418A70432577B29B0013E190 /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A70422577B29B0013E190 /* ExpensesViewController.swift */; };
+		418A70482577B2C20013E190 /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A70472577B2C20013E190 /* ExpenseTableViewCell.swift */; };
+		418A70502578D5900013E190 /* CategsExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A704F2578D5900013E190 /* CategsExpenseTableViewCell.swift */; };
+		418A70552578D5B00013E190 /* CategsExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A70542578D5B00013E190 /* CategsExpenseViewController.swift */; };
+		418A705D257918DB0013E190 /* Diagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A705C257918DB0013E190 /* Diagram.swift */; };
+		418A7083257BBEDE0013E190 /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A7082257BBEDE0013E190 /* AnalyticsViewController.swift */; };
+		418A708B257BFCAA0013E190 /* GeneralAnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A708A257BFCA90013E190 /* GeneralAnalyticsViewController.swift */; };
+		41BCE6A32534F3FB00FCE6B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BCE6A22534F3FB00FCE6B4 /* AppDelegate.swift */; };
+		41BCE6A52534F3FB00FCE6B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BCE6A42534F3FB00FCE6B4 /* SceneDelegate.swift */; };
+		41BCE6A72534F3FB00FCE6B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BCE6A62534F3FB00FCE6B4 /* ViewController.swift */; };
+		41BCE6AC2534F40000FCE6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BCE6AB2534F40000FCE6B4 /* Assets.xcassets */; };
+		41BCE6AF2534F40000FCE6B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BCE6AD2534F40000FCE6B4 /* LaunchScreen.storyboard */; };
+		41BCE6BA2534F40000FCE6B4 /* lavehaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BCE6B92534F40000FCE6B4 /* lavehaTests.swift */; };
+		41BCE6C52534F40000FCE6B4 /* lavehaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BCE6C42534F40000FCE6B4 /* lavehaUITests.swift */; };
+		41BEDAFA254AAC1A00D70FC6 /* MainIncomesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BEDAF9254AAC1A00D70FC6 /* MainIncomesViewController.swift */; };
+		41BEDAFF254AAC4100D70FC6 /* MainExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BEDAFE254AAC4100D70FC6 /* MainExpensesViewController.swift */; };
+		41BEDB072552171500D70FC6 /* IncomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BEDB062552171500D70FC6 /* IncomeTableViewCell.swift */; };
+		41D02CE02539C8A500BD8781 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D02CDF2539C8A500BD8781 /* Wallet.swift */; };
+		41F3917D253838B900FF34B2 /* IncomesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F3917C253838B900FF34B2 /* IncomesViewController.swift */; };
+		41F39182253839BD00FF34B2 /* MainScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F39181253839BD00FF34B2 /* MainScreenTableViewCell.swift */; };
+		5B4A1A4BE9FCEEA8832439E1 /* Pods_lavehaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34DDD827AEC36A86FF7DF79 /* Pods_lavehaTests.framework */; };
+		7EBA2EBF7522AB778BE932D8 /* Pods_laveha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26D31A7F4848DA764665482 /* Pods_laveha.framework */; };
+		A89F281AF3DE43DA109D33CC /* Pods_laveha_lavehaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FEA6FEC0D95D5D57716755 /* Pods_laveha_lavehaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41BCE6B62534F40000FCE6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41BCE6972534F3FA00FCE6B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41BCE69E2534F3FB00FCE6B4;
+			remoteInfo = laveha;
+		};
+		41BCE6C12534F40000FCE6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41BCE6972534F3FA00FCE6B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41BCE69E2534F3FB00FCE6B4;
+			remoteInfo = laveha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D8F22927886AE84F6A02715 /* Pods-laveha-lavehaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-laveha-lavehaUITests.debug.xcconfig"; path = "Target Support Files/Pods-laveha-lavehaUITests/Pods-laveha-lavehaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25D7E79274E3F151C457D239 /* Pods-laveha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-laveha.release.xcconfig"; path = "Target Support Files/Pods-laveha/Pods-laveha.release.xcconfig"; sourceTree = "<group>"; };
+		41413F5E258B7D8200E8CB21 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		4146DED92536DBA60019F3CE /* MainScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainScreen.storyboard; sourceTree = "<group>"; };
+		4146DEDE2536E0670019F3CE /* IncomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IncomeScreen.storyboard; sourceTree = "<group>"; };
+		4146DEE62536E1E30019F3CE /* ExpensesScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExpensesScreen.storyboard; sourceTree = "<group>"; };
+		4146DEEB2536E5470019F3CE /* DiagramScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DiagramScreen.storyboard; sourceTree = "<group>"; };
+		4146DEF32536EED60019F3CE /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		415566432566608900A1630E /* CategsIncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategsIncomeViewController.swift; sourceTree = "<group>"; };
+		4155664B2566998D00A1630E /* CategsIncomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategsIncomeTableViewCell.swift; sourceTree = "<group>"; };
+		418A702E256DA2D80013E190 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		418A70422577B29B0013E190 /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		418A70472577B2C20013E190 /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		418A704F2578D5900013E190 /* CategsExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategsExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		418A70542578D5B00013E190 /* CategsExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategsExpenseViewController.swift; sourceTree = "<group>"; };
+		418A705C257918DB0013E190 /* Diagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagram.swift; sourceTree = "<group>"; };
+		418A7082257BBEDE0013E190 /* AnalyticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewController.swift; sourceTree = "<group>"; };
+		418A708A257BFCA90013E190 /* GeneralAnalyticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralAnalyticsViewController.swift; sourceTree = "<group>"; };
+		41BCE69F2534F3FB00FCE6B4 /* laveha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laveha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BCE6A22534F3FB00FCE6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41BCE6A42534F3FB00FCE6B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		41BCE6A62534F3FB00FCE6B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41BCE6AB2534F40000FCE6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41BCE6AE2534F40000FCE6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41BCE6B02534F40000FCE6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BCE6B52534F40000FCE6B4 /* lavehaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lavehaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BCE6B92534F40000FCE6B4 /* lavehaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lavehaTests.swift; sourceTree = "<group>"; };
+		41BCE6BB2534F40000FCE6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BCE6C02534F40000FCE6B4 /* lavehaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lavehaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BCE6C42534F40000FCE6B4 /* lavehaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lavehaUITests.swift; sourceTree = "<group>"; };
+		41BCE6C62534F40000FCE6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BEDAF9254AAC1A00D70FC6 /* MainIncomesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIncomesViewController.swift; sourceTree = "<group>"; };
+		41BEDAFE254AAC4100D70FC6 /* MainExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainExpensesViewController.swift; sourceTree = "<group>"; };
+		41BEDB062552171500D70FC6 /* IncomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeTableViewCell.swift; sourceTree = "<group>"; };
+		41D02CDF2539C8A500BD8781 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		41F3917C253838B900FF34B2 /* IncomesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomesViewController.swift; sourceTree = "<group>"; };
+		41F39181253839BD00FF34B2 /* MainScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenTableViewCell.swift; sourceTree = "<group>"; };
+		556F51D443D4A68CB59C0D0D /* Pods-lavehaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lavehaTests.release.xcconfig"; path = "Target Support Files/Pods-lavehaTests/Pods-lavehaTests.release.xcconfig"; sourceTree = "<group>"; };
+		64FEA6FEC0D95D5D57716755 /* Pods_laveha_lavehaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_laveha_lavehaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9446931164DCC743BA846C65 /* Pods-lavehaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lavehaTests.debug.xcconfig"; path = "Target Support Files/Pods-lavehaTests/Pods-lavehaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A55DEDD2E04428EF56CA26BD /* Pods-laveha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-laveha.debug.xcconfig"; path = "Target Support Files/Pods-laveha/Pods-laveha.debug.xcconfig"; sourceTree = "<group>"; };
+		A77B697147908A335CD6324B /* Pods-laveha-lavehaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-laveha-lavehaUITests.release.xcconfig"; path = "Target Support Files/Pods-laveha-lavehaUITests/Pods-laveha-lavehaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F26D31A7F4848DA764665482 /* Pods_laveha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_laveha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34DDD827AEC36A86FF7DF79 /* Pods_lavehaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lavehaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41BCE69C2534F3FB00FCE6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBA2EBF7522AB778BE932D8 /* Pods_laveha.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BCE6B22534F40000FCE6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4A1A4BE9FCEEA8832439E1 /* Pods_lavehaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BCE6BD2534F40000FCE6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89F281AF3DE43DA109D33CC /* Pods_laveha_lavehaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2152ECC3440388EE4CD58254 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A55DEDD2E04428EF56CA26BD /* Pods-laveha.debug.xcconfig */,
+				25D7E79274E3F151C457D239 /* Pods-laveha.release.xcconfig */,
+				0D8F22927886AE84F6A02715 /* Pods-laveha-lavehaUITests.debug.xcconfig */,
+				A77B697147908A335CD6324B /* Pods-laveha-lavehaUITests.release.xcconfig */,
+				9446931164DCC743BA846C65 /* Pods-lavehaTests.debug.xcconfig */,
+				556F51D443D4A68CB59C0D0D /* Pods-lavehaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		418A708F257BFF740013E190 /* Categs */ = {
+			isa = PBXGroup;
+			children = (
+				415566432566608900A1630E /* CategsIncomeViewController.swift */,
+				4155664B2566998D00A1630E /* CategsIncomeTableViewCell.swift */,
+				418A70542578D5B00013E190 /* CategsExpenseViewController.swift */,
+				418A704F2578D5900013E190 /* CategsExpenseTableViewCell.swift */,
+			);
+			path = Categs;
+			sourceTree = "<group>";
+		};
+		418A7090257BFFA30013E190 /* Incomes */ = {
+			isa = PBXGroup;
+			children = (
+				41BEDAF9254AAC1A00D70FC6 /* MainIncomesViewController.swift */,
+				41F3917C253838B900FF34B2 /* IncomesViewController.swift */,
+				41BEDB062552171500D70FC6 /* IncomeTableViewCell.swift */,
+			);
+			path = Incomes;
+			sourceTree = "<group>";
+		};
+		418A7091257BFFC50013E190 /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				41BEDAFE254AAC4100D70FC6 /* MainExpensesViewController.swift */,
+				418A70422577B29B0013E190 /* ExpensesViewController.swift */,
+				418A70472577B2C20013E190 /* ExpenseTableViewCell.swift */,
+			);
+			path = Expenses;
+			sourceTree = "<group>";
+		};
+		418A7092257C00190013E190 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				418A709D257C00560013E190 /* Analytics */,
+				418A7099257C003B0013E190 /* Core */,
+				418A7090257BFFA30013E190 /* Incomes */,
+				418A708F257BFF740013E190 /* Categs */,
+				418A7091257BFFC50013E190 /* Expenses */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		418A7099257C003B0013E190 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				41413F5E258B7D8200E8CB21 /* RealmManager.swift */,
+				41D02CDF2539C8A500BD8781 /* Wallet.swift */,
+				418A705C257918DB0013E190 /* Diagram.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		418A709D257C00560013E190 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				418A7082257BBEDE0013E190 /* AnalyticsViewController.swift */,
+				418A708A257BFCA90013E190 /* GeneralAnalyticsViewController.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		41BCE6962534F3FA00FCE6B4 = {
+			isa = PBXGroup;
+			children = (
+				41BCE6A12534F3FB00FCE6B4 /* laveha */,
+				41BCE6B82534F40000FCE6B4 /* lavehaTests */,
+				41BCE6C32534F40000FCE6B4 /* lavehaUITests */,
+				41BCE6A02534F3FB00FCE6B4 /* Products */,
+				2152ECC3440388EE4CD58254 /* Pods */,
+				98703776158BD56E0E3886A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41BCE6A02534F3FB00FCE6B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41BCE69F2534F3FB00FCE6B4 /* laveha.app */,
+				41BCE6B52534F40000FCE6B4 /* lavehaTests.xctest */,
+				41BCE6C02534F40000FCE6B4 /* lavehaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41BCE6A12534F3FB00FCE6B4 /* laveha */ = {
+			isa = PBXGroup;
+			children = (
+				418A7092257C00190013E190 /* Views */,
+				41BCE6A22534F3FB00FCE6B4 /* AppDelegate.swift */,
+				41BCE6A42534F3FB00FCE6B4 /* SceneDelegate.swift */,
+				41BCE6A62534F3FB00FCE6B4 /* ViewController.swift */,
+				4146DEF32536EED60019F3CE /* MainScreenViewController.swift */,
+				41F39181253839BD00FF34B2 /* MainScreenTableViewCell.swift */,
+				418A702E256DA2D80013E190 /* Main.storyboard */,
+				4146DED92536DBA60019F3CE /* MainScreen.storyboard */,
+				4146DEDE2536E0670019F3CE /* IncomeScreen.storyboard */,
+				4146DEE62536E1E30019F3CE /* ExpensesScreen.storyboard */,
+				4146DEEB2536E5470019F3CE /* DiagramScreen.storyboard */,
+				41BCE6AB2534F40000FCE6B4 /* Assets.xcassets */,
+				41BCE6AD2534F40000FCE6B4 /* LaunchScreen.storyboard */,
+				41BCE6B02534F40000FCE6B4 /* Info.plist */,
+			);
+			path = laveha;
+			sourceTree = "<group>";
+		};
+		41BCE6B82534F40000FCE6B4 /* lavehaTests */ = {
+			isa = PBXGroup;
+			children = (
+				41BCE6B92534F40000FCE6B4 /* lavehaTests.swift */,
+				41BCE6BB2534F40000FCE6B4 /* Info.plist */,
+			);
+			path = lavehaTests;
+			sourceTree = "<group>";
+		};
+		41BCE6C32534F40000FCE6B4 /* lavehaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41BCE6C42534F40000FCE6B4 /* lavehaUITests.swift */,
+				41BCE6C62534F40000FCE6B4 /* Info.plist */,
+			);
+			path = lavehaUITests;
+			sourceTree = "<group>";
+		};
+		98703776158BD56E0E3886A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F26D31A7F4848DA764665482 /* Pods_laveha.framework */,
+				64FEA6FEC0D95D5D57716755 /* Pods_laveha_lavehaUITests.framework */,
+				F34DDD827AEC36A86FF7DF79 /* Pods_lavehaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41BCE69E2534F3FB00FCE6B4 /* laveha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41BCE6C92534F40000FCE6B4 /* Build configuration list for PBXNativeTarget "laveha" */;
+			buildPhases = (
+				A84131DC8EF48F2C4F4915A8 /* [CP] Check Pods Manifest.lock */,
+				41BCE69B2534F3FB00FCE6B4 /* Sources */,
+				41BCE69C2534F3FB00FCE6B4 /* Frameworks */,
+				41BCE69D2534F3FB00FCE6B4 /* Resources */,
+				87432A0E5DDB003C19021F8D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = laveha;
+			productName = laveha;
+			productReference = 41BCE69F2534F3FB00FCE6B4 /* laveha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41BCE6B42534F40000FCE6B4 /* lavehaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41BCE6CC2534F40000FCE6B4 /* Build configuration list for PBXNativeTarget "lavehaTests" */;
+			buildPhases = (
+				870948899D367DB742CB5F25 /* [CP] Check Pods Manifest.lock */,
+				41BCE6B12534F40000FCE6B4 /* Sources */,
+				41BCE6B22534F40000FCE6B4 /* Frameworks */,
+				41BCE6B32534F40000FCE6B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41BCE6B72534F40000FCE6B4 /* PBXTargetDependency */,
+			);
+			name = lavehaTests;
+			productName = lavehaTests;
+			productReference = 41BCE6B52534F40000FCE6B4 /* lavehaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41BCE6BF2534F40000FCE6B4 /* lavehaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41BCE6CF2534F40000FCE6B4 /* Build configuration list for PBXNativeTarget "lavehaUITests" */;
+			buildPhases = (
+				A7670605464C6B899EA42AC3 /* [CP] Check Pods Manifest.lock */,
+				41BCE6BC2534F40000FCE6B4 /* Sources */,
+				41BCE6BD2534F40000FCE6B4 /* Frameworks */,
+				41BCE6BE2534F40000FCE6B4 /* Resources */,
+				F4D83149A5EA5375D8C037F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41BCE6C22534F40000FCE6B4 /* PBXTargetDependency */,
+			);
+			name = lavehaUITests;
+			productName = lavehaUITests;
+			productReference = 41BCE6C02534F40000FCE6B4 /* lavehaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41BCE6972534F3FA00FCE6B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					41BCE69E2534F3FB00FCE6B4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					41BCE6B42534F40000FCE6B4 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 41BCE69E2534F3FB00FCE6B4;
+					};
+					41BCE6BF2534F40000FCE6B4 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 41BCE69E2534F3FB00FCE6B4;
+					};
+				};
+			};
+			buildConfigurationList = 41BCE69A2534F3FA00FCE6B4 /* Build configuration list for PBXProject "laveha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41BCE6962534F3FA00FCE6B4;
+			productRefGroup = 41BCE6A02534F3FB00FCE6B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41BCE69E2534F3FB00FCE6B4 /* laveha */,
+				41BCE6B42534F40000FCE6B4 /* lavehaTests */,
+				41BCE6BF2534F40000FCE6B4 /* lavehaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41BCE69D2534F3FB00FCE6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BCE6AF2534F40000FCE6B4 /* LaunchScreen.storyboard in Resources */,
+				4146DEDA2536DBA60019F3CE /* MainScreen.storyboard in Resources */,
+				4146DEDF2536E0670019F3CE /* IncomeScreen.storyboard in Resources */,
+				418A702F256DA2D90013E190 /* Main.storyboard in Resources */,
+				41BCE6AC2534F40000FCE6B4 /* Assets.xcassets in Resources */,
+				4146DEEC2536E5470019F3CE /* DiagramScreen.storyboard in Resources */,
+				4146DEE72536E1E30019F3CE /* ExpensesScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BCE6B32534F40000FCE6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BCE6BE2534F40000FCE6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		870948899D367DB742CB5F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lavehaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87432A0E5DDB003C19021F8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-laveha/Pods-laveha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-laveha/Pods-laveha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-laveha/Pods-laveha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7670605464C6B899EA42AC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-laveha-lavehaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A84131DC8EF48F2C4F4915A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-laveha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D83149A5EA5375D8C037F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-laveha-lavehaUITests/Pods-laveha-lavehaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-laveha-lavehaUITests/Pods-laveha-lavehaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-laveha-lavehaUITests/Pods-laveha-lavehaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41BCE69B2534F3FB00FCE6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418A70482577B2C20013E190 /* ExpenseTableViewCell.swift in Sources */,
+				41F3917D253838B900FF34B2 /* IncomesViewController.swift in Sources */,
+				418A70432577B29B0013E190 /* ExpensesViewController.swift in Sources */,
+				41D02CE02539C8A500BD8781 /* Wallet.swift in Sources */,
+				41BEDB072552171500D70FC6 /* IncomeTableViewCell.swift in Sources */,
+				41BCE6A72534F3FB00FCE6B4 /* ViewController.swift in Sources */,
+				415566442566608A00A1630E /* CategsIncomeViewController.swift in Sources */,
+				41BEDAFF254AAC4100D70FC6 /* MainExpensesViewController.swift in Sources */,
+				41BEDAFA254AAC1A00D70FC6 /* MainIncomesViewController.swift in Sources */,
+				418A70552578D5B00013E190 /* CategsExpenseViewController.swift in Sources */,
+				418A70502578D5900013E190 /* CategsExpenseTableViewCell.swift in Sources */,
+				418A7083257BBEDE0013E190 /* AnalyticsViewController.swift in Sources */,
+				4155664C2566998D00A1630E /* CategsIncomeTableViewCell.swift in Sources */,
+				41F39182253839BD00FF34B2 /* MainScreenTableViewCell.swift in Sources */,
+				4146DEF42536EED60019F3CE /* MainScreenViewController.swift in Sources */,
+				41BCE6A32534F3FB00FCE6B4 /* AppDelegate.swift in Sources */,
+				41BCE6A52534F3FB00FCE6B4 /* SceneDelegate.swift in Sources */,
+				41413F5F258B7D8200E8CB21 /* RealmManager.swift in Sources */,
+				418A705D257918DB0013E190 /* Diagram.swift in Sources */,
+				418A708B257BFCAA0013E190 /* GeneralAnalyticsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BCE6B12534F40000FCE6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BCE6BA2534F40000FCE6B4 /* lavehaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BCE6BC2534F40000FCE6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BCE6C52534F40000FCE6B4 /* lavehaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41BCE6B72534F40000FCE6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41BCE69E2534F3FB00FCE6B4 /* laveha */;
+			targetProxy = 41BCE6B62534F40000FCE6B4 /* PBXContainerItemProxy */;
+		};
+		41BCE6C22534F40000FCE6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41BCE69E2534F3FB00FCE6B4 /* laveha */;
+			targetProxy = 41BCE6C12534F40000FCE6B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41BCE6AD2534F40000FCE6B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41BCE6AE2534F40000FCE6B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41BCE6C72534F40000FCE6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41BCE6C82534F40000FCE6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41BCE6CA2534F40000FCE6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55DEDD2E04428EF56CA26BD /* Pods-laveha.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S4JPYLG6Z;
+				INFOPLIST_FILE = laveha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mmmarinasel.laveha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41BCE6CB2534F40000FCE6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D7E79274E3F151C457D239 /* Pods-laveha.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S4JPYLG6Z;
+				INFOPLIST_FILE = laveha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mmmarinasel.laveha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41BCE6CD2534F40000FCE6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9446931164DCC743BA846C65 /* Pods-lavehaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S4JPYLG6Z;
+				INFOPLIST_FILE = lavehaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mmmarinasel.lavehaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/laveha.app/laveha";
+			};
+			name = Debug;
+		};
+		41BCE6CE2534F40000FCE6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556F51D443D4A68CB59C0D0D /* Pods-lavehaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S4JPYLG6Z;
+				INFOPLIST_FILE = lavehaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mmmarinasel.lavehaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/laveha.app/laveha";
+			};
+			name = Release;
+		};
+		41BCE6D02534F40000FCE6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8F22927886AE84F6A02715 /* Pods-laveha-lavehaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S4JPYLG6Z;
+				INFOPLIST_FILE = lavehaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mmmarinasel.lavehaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = laveha;
+			};
+			name = Debug;
+		};
+		41BCE6D12534F40000FCE6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77B697147908A335CD6324B /* Pods-laveha-lavehaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S4JPYLG6Z;
+				INFOPLIST_FILE = lavehaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mmmarinasel.lavehaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = laveha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41BCE69A2534F3FA00FCE6B4 /* Build configuration list for PBXProject "laveha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BCE6C72534F40000FCE6B4 /* Debug */,
+				41BCE6C82534F40000FCE6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41BCE6C92534F40000FCE6B4 /* Build configuration list for PBXNativeTarget "laveha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BCE6CA2534F40000FCE6B4 /* Debug */,
+				41BCE6CB2534F40000FCE6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41BCE6CC2534F40000FCE6B4 /* Build configuration list for PBXNativeTarget "lavehaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BCE6CD2534F40000FCE6B4 /* Debug */,
+				41BCE6CE2534F40000FCE6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41BCE6CF2534F40000FCE6B4 /* Build configuration list for PBXNativeTarget "lavehaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BCE6D02534F40000FCE6B4 /* Debug */,
+				41BCE6D12534F40000FCE6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41BCE6972534F3FA00FCE6B4 /* Project object */;
+}

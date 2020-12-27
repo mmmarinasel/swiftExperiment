@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--График-->
+        <scene sceneID="h9R-hA-Q8e">
+            <objects>
+                <viewController storyboardIdentifier="DiagramScreenID" id="Pb3-6I-cRn" customClass="GeneralAnalyticsViewController" customModule="laveha" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YR6-bS-u45">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="товар 1" translatesAutoresizingMaskIntoConstraints="NO" id="PDb-90-twU">
+                                <rect key="frame" x="-66" y="0.0" width="294" height="252"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="252" id="Je9-et-chk"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="товар 2" translatesAutoresizingMaskIntoConstraints="NO" id="JrC-Yp-8M8">
+                                <rect key="frame" x="301" y="0.0" width="126" height="153.5"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="товар 3" translatesAutoresizingMaskIntoConstraints="NO" id="yqt-lw-de4">
+                                <rect key="frame" x="236" y="181.5" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="iPs-yf-Mg1"/>
+                                    <constraint firstAttribute="height" constant="128" id="vbG-Kn-hXP"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="товар 4" translatesAutoresizingMaskIntoConstraints="NO" id="alQ-Qc-8rp">
+                                <rect key="frame" x="154" y="357.5" width="392" height="340.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="392" id="A2u-Jn-bcv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="товар 5" translatesAutoresizingMaskIntoConstraints="NO" id="ecS-E9-j36">
+                                <rect key="frame" x="-66" y="260" width="589" height="590"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="товар 6" translatesAutoresizingMaskIntoConstraints="NO" id="pdl-lb-G9b">
+                                <rect key="frame" x="-39" y="685" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="ibL-EJ-QtK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="товар 7" translatesAutoresizingMaskIntoConstraints="NO" id="HPk-o8-ubb">
+                                <rect key="frame" x="0.0" y="665" width="427" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="148" id="UgJ-Qt-Whm"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="товар 8" translatesAutoresizingMaskIntoConstraints="NO" id="ex8-dt-OEj">
+                                <rect key="frame" x="209" y="722" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="RNr-qN-yWy"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hOJ-7Y-uD4" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="12" y="83" width="391" height="325"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5jq-XC-6sP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="ex8-dt-OEj" secondAttribute="bottom" constant="-37" id="1UH-Fh-EAn"/>
+                            <constraint firstItem="hOJ-7Y-uD4" firstAttribute="top" secondItem="5jq-XC-6sP" secondAttribute="top" constant="39" id="3yp-gR-DtY"/>
+                            <constraint firstItem="HPk-o8-ubb" firstAttribute="leading" secondItem="YR6-bS-u45" secondAttribute="leading" id="6BX-we-PwA"/>
+                            <constraint firstItem="alQ-Qc-8rp" firstAttribute="leading" secondItem="5jq-XC-6sP" secondAttribute="leading" constant="154" id="6Hk-27-EIj"/>
+                            <constraint firstItem="alQ-Qc-8rp" firstAttribute="top" secondItem="yqt-lw-de4" secondAttribute="bottom" constant="48" id="8fd-hN-M2H"/>
+                            <constraint firstItem="5jq-XC-6sP" firstAttribute="trailing" secondItem="hOJ-7Y-uD4" secondAttribute="trailing" constant="11" id="9x1-fc-H81"/>
+                            <constraint firstItem="ecS-E9-j36" firstAttribute="top" secondItem="PDb-90-twU" secondAttribute="bottom" constant="8" symbolic="YES" id="An6-vR-yQa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HPk-o8-ubb" secondAttribute="trailing" constant="-33" id="Cj9-It-Uv3"/>
+                            <constraint firstItem="pdl-lb-G9b" firstAttribute="leading" secondItem="YR6-bS-u45" secondAttribute="leadingMargin" constant="-59" id="IfI-Hu-yjR"/>
+                            <constraint firstItem="hOJ-7Y-uD4" firstAttribute="centerY" secondItem="yqt-lw-de4" secondAttribute="centerY" id="J1N-NN-N3P"/>
+                            <constraint firstItem="pdl-lb-G9b" firstAttribute="bottom" secondItem="5jq-XC-6sP" secondAttribute="bottom" id="MH6-cJ-bzT"/>
+                            <constraint firstItem="yqt-lw-de4" firstAttribute="leading" secondItem="PDb-90-twU" secondAttribute="trailing" constant="8" symbolic="YES" id="Ngg-Cb-7Tn"/>
+                            <constraint firstItem="hOJ-7Y-uD4" firstAttribute="leading" secondItem="5jq-XC-6sP" secondAttribute="leading" constant="12" id="Qyc-DE-uLe"/>
+                            <constraint firstItem="PDb-90-twU" firstAttribute="top" secondItem="YR6-bS-u45" secondAttribute="top" id="R1h-Bn-MwA"/>
+                            <constraint firstItem="PDb-90-twU" firstAttribute="leading" secondItem="YR6-bS-u45" secondAttribute="leadingMargin" constant="-86" id="Rcs-8Y-lGp"/>
+                            <constraint firstItem="PDb-90-twU" firstAttribute="top" secondItem="JrC-Yp-8M8" secondAttribute="top" id="Tj1-p2-20w"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yqt-lw-de4" secondAttribute="trailing" constant="-82" id="W5b-fd-o97"/>
+                            <constraint firstItem="pdl-lb-G9b" firstAttribute="bottom" secondItem="HPk-o8-ubb" secondAttribute="bottom" id="Y2p-aB-Ahn"/>
+                            <constraint firstItem="PDb-90-twU" firstAttribute="leading" secondItem="ecS-E9-j36" secondAttribute="leading" id="YuX-54-F4N"/>
+                            <constraint firstItem="HPk-o8-ubb" firstAttribute="trailing" secondItem="JrC-Yp-8M8" secondAttribute="trailing" id="ZpQ-KN-Yj5"/>
+                            <constraint firstItem="ex8-dt-OEj" firstAttribute="leading" secondItem="pdl-lb-G9b" secondAttribute="trailing" constant="8" symbolic="YES" id="bCH-Md-Aol"/>
+                            <constraint firstItem="ex8-dt-OEj" firstAttribute="top" secondItem="alQ-Qc-8rp" secondAttribute="bottom" constant="24" id="i1L-FS-hpw"/>
+                            <constraint firstItem="PDb-90-twU" firstAttribute="centerX" secondItem="pdl-lb-G9b" secondAttribute="centerX" id="jL5-R3-mmz"/>
+                            <constraint firstItem="ex8-dt-OEj" firstAttribute="bottom" secondItem="ecS-E9-j36" secondAttribute="bottom" id="lfe-KV-gJs"/>
+                            <constraint firstItem="yqt-lw-de4" firstAttribute="top" secondItem="JrC-Yp-8M8" secondAttribute="bottom" constant="28" id="rpu-T0-Owt"/>
+                            <constraint firstAttribute="bottom" secondItem="hOJ-7Y-uD4" secondAttribute="bottom" constant="488" id="rul-gj-tJQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ex8-dt-OEj" secondAttribute="trailing" constant="-55" id="ttw-8R-7if"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="График" image="chart.bar.xaxis" catalog="system" selectedImage="chart.bar.xaxis" id="B8D-XU-pac"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="barChartView" destination="hOJ-7Y-uD4" id="6tV-oP-Zem"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1vE-Sp-Phq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-888.40579710144937" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chart.bar.xaxis" catalog="system" width="32" height="32"/>
+        <image name="товар 1" width="192" height="253"/>
+        <image name="товар 2" width="126" height="105"/>
+        <image name="товар 3" width="110" height="113"/>
+        <image name="товар 4" width="153" height="395"/>
+        <image name="товар 5" width="367" height="549"/>
+        <image name="товар 6" width="203" height="157"/>
+        <image name="товар 7" width="375" height="115"/>
+        <image name="товар 8" width="143" height="90"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
